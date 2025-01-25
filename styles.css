@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Center the navigation buttons for larger screens */
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the navigation buttons */
+.navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Darken the navigation button on hover */
+.navbar a:hover {
+    background-color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Adjust header for responsiveness */
+.header {
+    background-image: url('images/silassie_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+}
+
+/* Center the header content */
+.header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Center-align the header for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack navigation buttons for smaller screens */
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+}
+
+/* Style the table */
+.misbaks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.misbaks-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.misbaks-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Style the first row as a title */
+.misbaks-table tr:first-child {
+    background-color: #333; /* Background color for the title row */
+    color: white; /* Text color for the title row */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center-align the text */
+}
+
+/* CSS styles for the image */
+.image-with-border {
+    border: 5px solid #000; /* Add a 1px solid black border */
+    max-width: 100%;
+    height: auto;
+}
+
+/* CSS styles for all paragraphs */
+p {
+    font-weight: bold; /* Make text bold */
+    font-size: 18px; /* Adjust the font size as needed */
+}
+/* CSS styles for the navigation bar */
+
+.navbar a {
+    font-weight: bold; /* Make text bold */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+/* CSS styles for the table */
+.my-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.my-table th, .my-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.my-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.my-table th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Additional CSS for your paragraph style */
+p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Additional CSS for your navigation bar style */
+.navbar a {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* CSS styles for the embedded video */
+#video-container {
+    width: 100%;
+    max-width: 800px; /* Adjust the max width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#youtube-video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.attribution {
+    font-size: 7px; /* Adjust the font size as needed */
+    margin-top: -5px; /* Adjust the margin to control the distance from the embedded PDF */
+}
+
+/* Style for the link to the disclaimer page with the "disclaimer-link" class */
+.disclaimer-link {
+    color: #0077b6;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.disclaimer-link:hover {
+    text-decoration: underline;
+}
+
+/* Style for the main heading */
+h1 {
+    font-size: 28px; /* Adjust the font size as needed */
+    color: #000000; /* Text color */
+    margin-top: 20px; /* Adjust the top margin */
+}
+
+/* Style for secondary headings (subtitles) */
+h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #ff0000; /* Text color */
+    margin-top: 10px; /* Adjust the top margin */
+}
+
+/* Style for paragraphs */
+p {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #000000; /* Text color */
+    margin-top: 10px; /* Adjust the top margin */
+}
